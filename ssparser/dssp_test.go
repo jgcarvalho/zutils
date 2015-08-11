@@ -3,7 +3,7 @@ package ssparser
 import (
 	//"fmt"
 	"testing"
-	//"code.google.com/p/biogo/seq/linear"
+	//"github.com/biogo/biogo/seq/linear"
 )
 
 type testdata struct {

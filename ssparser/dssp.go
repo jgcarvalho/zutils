@@ -1,12 +1,13 @@
 package ssparser
 
 import (
-	"code.google.com/p/biogo/alphabet"
-	//"code.google.com/p/biogo/seq"
-	"code.google.com/p/biogo/seq/linear"
+	"github.com/biogo/biogo/alphabet"
+	//"github.com/biogo/biogo/seq"
 	"fmt"
 	"io/ioutil"
 	"strings"
+
+	"github.com/biogo/biogo/seq/linear"
 )
 
 // GetDSSP recebe a nome do arquivo gerado pelo programa DSSP e extrai os dados

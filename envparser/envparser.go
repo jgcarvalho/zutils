@@ -1,11 +1,12 @@
 package envparser
 
 import (
-	"code.google.com/p/biogo/alphabet"
-	"code.google.com/p/biogo/seq/linear"
 	"fmt"
 	"io/ioutil"
 	"strings"
+
+	"github.com/biogo/biogo/alphabet"
+	"github.com/biogo/biogo/seq/linear"
 )
 
 var code3to1 = map[string]byte{
